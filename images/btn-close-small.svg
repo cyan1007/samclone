@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <filter id="타원_682" x="0" y="0" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_1-icon-1-common-5-20-px-delete-gray_2_" data-name="1-icon-1-common-5-20-px-delete-gray (2)" transform="translate(3 2)">
+    <path id="패스_4865" data-name="패스 4865" d="M0,0H20V20H0Z" fill="none" fill-rule="evenodd"/>
+    <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#타원_682)">
+      <g id="타원_682-2" data-name="타원 682" transform="translate(3 2)" fill="#fff" stroke="#e5e5e8" stroke-width="0.4">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="9.8" fill="none"/>
+      </g>
+    </g>
+    <path id="패스_4866" data-name="패스 4866" d="M7.566,6.434,10,8.87l2.434-2.435a.8.8,0,0,1,1.132,1.132L11.13,10l2.435,2.434a.8.8,0,0,1-1.132,1.132L10,11.13,7.566,13.565a.8.8,0,0,1-1.132-1.132L8.87,10,6.434,7.566A.8.8,0,0,1,7.566,6.434Z" fill="#0b0d0f"/>
+  </g>
+</svg>

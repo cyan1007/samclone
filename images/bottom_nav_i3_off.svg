@@ -1,0 +1,10 @@
+<svg id="layout_LayoutBottomNavigation_Main_Element_today_selected" data-name="layout/LayoutBottomNavigation/Main/Element/today_selected" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Rectangle_Copy_3" data-name="Rectangle Copy 3" fill="#98a1b5" stroke="rgba(0,0,0,0.1)" stroke-miterlimit="10" stroke-width="4" opacity="0">
+    <rect width="30" height="30" stroke="none"/>
+    <rect x="2" y="2" width="26" height="26" fill="none"/>
+  </g>
+  <g id="Group_2" data-name="Group 2" transform="translate(0.023)">
+    <path id="패스_4731" data-name="패스 4731" d="M4,12.5A1.5,1.5,0,0,1,5.5,11H14V26H9a3,3,0,0,1-3-3V15H5.5A1.5,1.5,0,0,1,4,13.5ZM16,26h5a3,3,0,0,0,3-3V15h.5A1.5,1.5,0,0,0,26,13.5v-1A1.5,1.5,0,0,0,24.5,11H16Z" fill="#98a1b5" fill-rule="evenodd"/>
+    <path id="패스_4732" data-name="패스 4732" d="M10.625,4A2.625,2.625,0,0,0,8,6.625V6.75A2.75,2.75,0,0,0,10.75,9.5h8.5A2.75,2.75,0,0,0,22,6.75V6.625A2.625,2.625,0,0,0,19.375,4,4.375,4.375,0,0,0,15,8.375,4.375,4.375,0,0,0,10.625,4Z" fill="#98a1b5" fill-rule="evenodd"/>
+  </g>
+</svg>

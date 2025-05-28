@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Property 2=24px, Property 3=Search">
+<g id="Icon" clip-path="url(#clip0_1229_56972)">
+<g id="1.icon/1.common/3.header/24px/search">
+<g id="Group">
+<path id="Oval" d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#0B0D0F" stroke-width="2"/>
+<path id="Line" d="M17 17L22 22" stroke="#0B0D0F" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1229_56972">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
