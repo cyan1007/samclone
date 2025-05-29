@@ -1,0 +1,7 @@
+<svg id="layout_LayoutBottomNavigation_Main_Element_today_selected" data-name="layout/LayoutBottomNavigation/Main/Element/today_selected" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Rectangle_Copy_3" data-name="Rectangle Copy 3" fill="rgba(255,0,0,0.2)" stroke="rgba(0,0,0,0.1)" stroke-miterlimit="10" stroke-width="4" opacity="0">
+    <rect width="30" height="30" stroke="none"/>
+    <rect x="2" y="2" width="26" height="26" fill="none"/>
+  </g>
+  <path id="Subtract" d="M1.111,7.339A3,3,0,0,0,0,9.67V20a3,3,0,0,0,3,3H6a1,1,0,0,0,1-1V18a2,2,0,0,1,2-2h2a2,2,0,0,1,2,2v4a1,1,0,0,0,1,1h3a3,3,0,0,0,3-3V9.67a3,3,0,0,0-1.111-2.331l-7-5.674a3,3,0,0,0-3.778,0Z" transform="translate(5 3.002)" fill="#0068ff"/>
+</svg>
