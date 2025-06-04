@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>삼성화재 클론코딩</title>
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="css/sw-banner.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/glodal.css" />
-    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header/header.css" />
+    <link rel="stylesheet" href="css/main/main.css" />
+    <link rel="stylesheet" href="css/main/sw-banner.css" />
+    <link rel="stylesheet" href="css/main/sw-card.css" />
+    <link rel="stylesheet" href="css/footer/footer.css" />
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/header.js" defer></script>
     <script src="js/swBanner.js" defer></script>
     <script src="js/swCard.js" defer></script>
   </head>
@@ -27,7 +32,7 @@
           <div class="inner">
             <div class="header-top-left">
               <ul>
-                <li><a href="#">가입보험</a></li>
+                <li><a href="#">기업보험</a></li>
                 <li><a href="#">삼성화재 다이렉트</a></li>
                 <li><a href="#">회사소개</a></li>
                 <li><a href="#">IR</a></li>
@@ -131,9 +136,30 @@
                   <div class="swiper-slide">Slide 6</div>
                   <div class="swiper-slide">Slide 7</div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
+                <div class="page-nav">
+                  <div class="prev-btn">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/slider_prev.svg"
+                        alt="이전"
+                      />
+                    </a>
+                  </div>
+                  <div class="banner-pagination"></div>
+                  <div class="next-bnt">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/slider_next.svg"
+                        alt="다음"
+                      />
+                    </a>
+                  </div>
+                  <div class="play-stop-btn">
+                    <!-- <a href="#">
+           <img src="images/main/homepage/slider_play.svg" alt="재생" />
+          </a> -->
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -607,12 +633,89 @@
                 />
               </a>
               <ul class="submenu">
-                <li><a href="#"></a></li>
+                <li><a href="#">휴면보험금 출연 안내</a></li>
+                <li><a href="#">자동차 간접손해보험금 안내</a></li>
+                <li><a href="#">과납보험료 환급신청</a></li>
+                <li><a href="#">서민금융 1332</a></li>
+                <li><a href="#">자동차리콜센터</a></li>
+                <li><a href="#">신용정보활용체제공시</a></li>
+                <li><a href="#">전자금융거래 유의사항</a></li>
+                <li><a href="#">이메일 무단수집 거부</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <span>신고센터</span>
+                <img
+                  src="images/common/ico-common-fold-arr.svg"
+                  alt="신고센터"
+                />
+              </a>
+              <ul class="submenu">
+                <li><a href="#">Comming Soon</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <span>해외법인</span>
+                <img
+                  src="images/common/ico-common-fold-arr.svg"
+                  alt="해외법인"
+                />
+              </a>
+              <ul class="submenu">
+                <li><a href="#">Comming Soon</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <span>패밀리사이트</span>
+                <img
+                  src="images/common/ico-common-fold-arr.svg"
+                  alt="패밀리사이트"
+                />
+              </a>
+              <ul class="submenu">
+                <li><a href="#">Comming Soon</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <span>삼성화재 SNS</span>
+                <img
+                  src="images/common/ico-common-fold-arr.svg"
+                  alt="삼성화재 SNS"
+                />
+              </a>
+              <ul class="submenu">
+                <li><a href="#">Comming Soon</a></li>
               </ul>
             </li>
           </ul>
         </div>
-        <div class="footer-bottom"></div>
+        <div class="footer-bottom">
+          <div class="policy">
+            <a href="#">상품공시</a>
+            <a href="#">보험가격공시</a>
+            <a href="#">보험금융상품등록부</a>
+            <a href="#">회원가입약관</a>
+            <a href="#">소비자포털</a>
+            <a href="#">개인정보관리책임자</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">고객정보취급방침</a>
+          </div>
+          <div class="info">
+            <div class="info-top">
+              <a href="#">삼성화재해상보험주식회사</a>
+              <a href="#">삼성화재해상보험주식회사</a>
+              <a href="#">삼성화재해상보험주식회사</a>
+              <a href="#">삼성화재해상보험주식회사</a>
+            </div>
+          </div>
+          <div class="bt-logo-wrap">
+            <div class="bt-logo"></div>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
