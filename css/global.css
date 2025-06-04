@@ -1,35 +1,35 @@
 @charset "utf-8";
 
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html,
 body {
- font-family: "SS-regular", "맑은고딕", sans-serif;
- font-size: 10px;
- color: #000;
- line-height: 1.5;
- letter-spacing: -0.23px;
- text-size-adjust: 100%;
- overflow-x: hidden;
- background-color: #fff;
+  font-family: "SS-regular", "맑은고딕", sans-serif;
+  font-size: 10px;
+  color: #0b0d0f;
+  line-height: 1.5;
+  letter-spacing: -0.23px;
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
 }
 ul,
 li {
- list-style: none;
+  list-style: none;
 }
 a {
- display: block;
- text-decoration: none;
- color: #000;
+  display: block;
+  text-decoration: none;
+  color: #0b0d0f;
 }
 img {
- border: 0;
- vertical-align: middle;
+  border: 0;
+  vertical-align: middle;
 }
 
 .wrap {
- width: 100%;
+  width: 100%;
 }
