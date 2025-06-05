@@ -16,7 +16,8 @@
 }
 .main-left {
   position: relative;
-  width: 776px;
+  width: 100%;
+  max-width: 776px;
 }
 /* 로그인 메뉴 모바일 */
 .login-wrap-mb {
@@ -127,17 +128,68 @@
 .side-banner-wrap-mb {
   display: none;
 }
+
 .main-right {
   position: relative;
   width: 335px;
 }
-
 .login-wrap {
   position: relative;
   padding: 3rem 2rem 2rem;
   background-color: #fff;
   border-radius: 2rem;
   border: 1px solid #e5e5e8;
+}
+.login-wrap .hello {
+  position: relative;
+  padding: 0 0.4rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+}
+.login-wrap .hello img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.login-wrap .hello span {
+  font-family: "SS-bold";
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.login-wrap .btn {
+  position: relative;
+  padding: 0 0.6rem;
+}
+.login-wrap .btn a {
+  padding: 1.3rem 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0068ff;
+  font-family: "SS-bold";
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2rem;
+  border-radius: 1.2rem;
+}
+.login-wrap .etc {
+  position: relative;
+  margin-top: 2.4rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.login-wrap .etc li {
+}
+.login-wrap .etc li:last-child {
+  padding-left: 2.5rem;
+  border-left: 1px solid #e5e5e8;
+}
+.login-wrap .etc li a {
+  font-size: 1.6rem;
+  color: #5a5b63;
 }
 .shortcut-wrap {
   position: relative;
@@ -153,4 +205,14 @@
 .side-banner-wrap {
   position: relative;
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 1219px) {
+  .main-left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .main-right {
+    display: none;
+  }
 }
