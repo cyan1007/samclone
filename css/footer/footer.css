@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+.footer {
+  position: relative;
+  width: 100%;
+  margin-top: 8rem;
+}
+.footer-top {
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #e5e5e8;
+  background-color: #fff;
+}
+.footer-top .inner {
+  position: relative;
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+.footer-top .inner > ul {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #e5e5e8;
+}
+.footer-top .inner > ul > li {
+  position: relative;
+  flex: 1;
+  border-right: 1px solid #e5e5e8;
+}
+.footer-top .inner > ul > li > a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.6rem;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+.footer-top .inner > ul > li > a > span {
+}
+.footer-top .inner > ul > li > a > img {
+}
+.footer-top .inner .submenu {
+  position: absolute;
+  bottom: 100%;
+  left: -1px;
+  right: -1px;
+  width: auto;
+  height: 294px;
+  padding: 3rem 2.4rem;
+  background-color: #fff;
+  border: 1px solid #e5e5e8;
+  z-index: 20;
+  display: none;
+}
+.footer-top .inner .submenu li {
+}
+.footer-top .inner .submenu li a {
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #5a5b63;
+}
+.footer-top .inner .submenu li:hover a {
+  text-decoration: underline;
+}
+.footer-bottom {
+  position: relative;
+  width: 100%;
+  background-color: #f7f8f9;
+}
+.footer-bottom .inner {
+  position: relative;
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto;
+  padding: 2rem 2.4rem 6rem;
+}
+.footer-bottom .inner .policy {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 4.1rem;
+  margin-bottom: 2rem;
+}
+.footer-bottom .inner .policy a {
+  position: relative;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #5a5b63;
+}
+.footer-bottom .inner .policy a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -2.1rem;
+  transform: translateY(-50%);
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: #e5e5e8;
+}
+.footer-bottom .inner .policy a:first-child:before {
+  display: none;
+}
+.footer-bottom .inner .info {
+  position: relative;
+  width: 100%;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e5e8;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .inner .info .info-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer-bottom .inner .info .info-left ul {
+  position: relative;
+  display: flex;
+  gap: 2.1rem;
+}
+.footer-bottom .inner .info .info-left ul li {
+  position: relative;
+  font-size: 1.4rem;
+  color: #5a5b63;
+}
+.footer-bottom .inner .info .info-left ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -1.1rem;
+  transform: translateY(-50%);
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: #e5e5e8;
+}
+.footer-bottom .inner .info .info-left ul li:first-child:before {
+  display: none;
+}
+.footer-bottom .inner .info .info-left .copyright {
+  font-size: 1.4rem;
+  color: #5a5b63;
+}
+.footer-bottom .inner .info .info-right {
+  position: relative;
+}
+.footer-bottom .inner .info .info-right a {
+  position: relative;
+  padding: 0.5rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+  font-family: "SS-bold";
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #0068ff;
+  border-radius: 3rem;
+  border: 1px solid #e5e5e8;
+  background-color: #fff;
+}
+.footer-bottom .inner .info .info-right a img {
+}
+.footer-bottom .inner .footer-logo-wrap {
+  position: relative;
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .inner .footer-logo-wrap .footer-logo {
+  position: relative;
+  width: 88px;
+  height: 30px;
+}
+.footer-bottom .inner .footer-logo-wrap .footer-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.footer-bottom .inner .footer-logo-wrap .footer-mark {
+  position: relative;
+}
+.footer-bottom .inner .footer-logo-wrap .footer-mark ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-bottom .inner .footer-logo-wrap .footer-mark ul li {
+}
+.footer-bottom .inner .footer-logo-wrap .footer-mark ul li a {
+  width: 37px;
+  height: 24px;
+}
+.footer-bottom .inner .footer-logo-wrap .footer-mark ul li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
