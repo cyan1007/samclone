@@ -85,3 +85,11 @@
  background-size: contain;
  cursor: pointer;
 }
+
+@media screen and (max-width: 1219px) {
+ .sw-banner-section {
+  margin-top: 2rem;
+  border-radius: 2rem;
+  height: 200px;
+ }
+}

@@ -10,3 +10,5 @@ window.addEventListener("scroll", () => {
     // console.log("header-bottom 고정해제");
   }
 });
+
+// 화면 너비 1219px 이하 일 때
