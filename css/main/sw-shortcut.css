@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 자주찾는 메뉴 모바일 */
+.shortcut-wrap-mb {
+ position: relative;
+ margin-top: 2rem;
+ display: none;
+}
+.shortcut-wrap-mb .sw-shortcut {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ /* display: flex; */
+ /* justify-content: space-between; */
+}
+.shortcut-wrap-mb .swiper-wrapper {
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+}
+.shortcut-wrap-mb .swiper-slide {
+ position: relative;
+ width: 7rem !important;
+ /* margin-right: 8px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.shortcut-wrap-mb .swiper-slide a {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 0.8rem;
+}
+.shortcut-wrap-mb .swiper-slide a img {
+ width: 52px;
+ height: 52px;
+ object-fit: contain;
+}
+.shortcut-wrap-mb .swiper-slide a span {
+ font-size: 1.4rem;
+ line-height: 1.6rem;
+ text-align: center;
+}
+
+@media screen and (max-width: 1219px) {
+ .shortcut-wrap-mb {
+  display: block;
+ }
+}
