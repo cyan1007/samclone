@@ -1,103 +1,291 @@
 @charset "utf-8";
 
 .modal-wrap {
-  position: fixed;
-  top: 0;
-  /* right: 0; */
-  right: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  transition: all 0.5s;
-  z-index: 60;
+ position: fixed;
+ top: 0;
+ /* right: 0; */
+ right: -100%;
+ width: 100%;
+ height: 100%;
+ background-color: #fff;
+ transition: all 0.5s;
+ z-index: 60;
 }
 .modal-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  /* overflow-y: auto; */
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+ position: relative;
+ width: 100%;
+ height: 100%;
+ padding-bottom: 6rem;
+ /* overflow-y: auto; */
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
 }
 /* 모달 헤더 */
 .modal-header {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 54px;
-  background-color: #fff;
-  z-index: 3;
-  padding-left: 2.4rem;
-  padding-right: 6.1rem;
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 54px;
+ background-color: #fff;
+ z-index: 3;
+ padding-left: 2.4rem;
+ padding-right: 6.1rem;
 }
 .modal-nav-logo {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+ position: relative;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ gap: 1rem;
 }
 .modal-nav-logo .logo {
-  position: relative;
-  width: 70px;
-  height: 100%;
+ position: relative;
+ width: 70px;
+ height: 100%;
 }
 .modal-nav-logo .logo a {
-  width: 100%;
-  height: 100%;
+ width: 100%;
+ height: 100%;
 }
 .modal-nav-logo .logo a span {
-  display: block;
-  font-size: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  background: url("../images/common/logo-text-blk.svg") no-repeat center;
-  background-size: contain;
+ display: block;
+ font-size: 0;
+ overflow: hidden;
+ width: 100%;
+ height: 100%;
+ background: url("../images/common/logo-text-blk.svg") no-repeat center;
+ background-size: contain;
 }
 .modal-nav-logo .login-btn {
-  position: relative;
+ position: relative;
 }
 .modal-nav-logo .login-btn a {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 50px;
-  min-height: 32px;
-  padding: 0.5rem 1.2rem;
-  font-size: 1.4rem;
-  color: #fff;
-  background-color: #0068ff;
-  border-radius: 3rem;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-width: 50px;
+ min-height: 32px;
+ padding: 0.5rem 1.2rem;
+ background-color: #0068ff;
+ border-radius: 3rem;
 }
 .modal-nav-logo .login-btn a span {
+ font-size: 1.4rem;
+ font-weight: 400;
+ color: #fff;
 }
 /* 모달 닫기 버튼 */
 .modal-close-btn {
-  position: absolute;
-  top: 15px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  background: url("../images/common/ico-header-close.svg") no-repeat center;
-  background-size: contain;
-  cursor: pointer;
-  z-index: 4;
+ position: absolute;
+ top: 15px;
+ right: 24px;
+ width: 24px;
+ height: 24px;
+ background: url("../images/common/ico-header-close.svg") no-repeat center;
+ background-size: contain;
+ cursor: pointer;
+ z-index: 4;
 }
 
 .modal-menu-wrap {
-  position: relative;
-  margin-top: 54px;
-  overflow-y: auto;
+ position: relative;
+ margin-top: 54px;
+ overflow-y: auto;
+ scroll-behavior: smooth;
+}
+.modal-searchbar {
+ position: relative;
+ width: 100%;
+ height: 56px;
+ padding: 0 2rem;
+ margin-bottom: 2.4rem;
+}
+.modal-searchbar input {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ padding: 0 2rem;
+ border: 1px solid #e5e5e8;
+ border-radius: 1.2rem;
+}
+.modal-searchbar input::placeholder {
+ font-size: 1.6rem;
+ color: #9095a1;
+}
+.modal-searchbar::after {
+ content: "";
+ position: absolute;
+ top: 1.6rem;
+ right: 4rem;
+ display: block;
+ width: 24px;
+ height: 24px;
+ background: url("../images/common/ico-search-24.svg") no-repeat center;
+ background-size: contain;
+}
+.modal-menu {
+ position: relative;
+}
+.modal-menu-nav {
+ position: sticky;
+ top: 0;
+ padding: 1.6rem 2rem;
+ background-color: #fff;
+ z-index: 3;
+}
+.modal-menu-nav ul {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1rem 0.4rem;
+}
+.modal-menu-nav ul li {
+ position: relative;
+}
+.modal-menu-nav ul li a {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem 1.5rem;
+ border-radius: 2rem;
+ background-color: #f7f8f9;
+ font-size: 1.6rem;
+ color: #565b63;
+}
+.modal-menu-nav ul li.on a {
+ background-color: #0b0d0f;
+ color: #fff;
+}
+.modal-menu-list {
+ position: relative;
+ margin-top: 1.4rem;
+ padding: 0 2.4rem;
+}
+.modal-menu-list > div {
+ padding-top: 4rem;
+}
+.modal-menu-list > div:first-child {
+ padding-top: 0;
+}
+.modal-menu-list > div > h4 {
+ position: relative;
+ width: 100%;
+ padding-bottom: 1.1rem;
+ border-bottom: 1px solid #5a5b63;
+ font-family: "SS-bold";
+ font-size: 1.8rem;
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+}
+.modal-menu-list > div > h4::before {
+ content: "";
+ display: block;
+ width: 5px;
+ height: 15px;
+ background-color: #0068ff;
+}
+.modal-menu-list > div:nth-of-type(2) > h4::before {
+ background-color: #00b7fd;
+}
+.modal-menu-list > div:nth-of-type(3) > h4::before {
+ background-color: #ff6060;
+}
+.modal-menu-list > div:nth-of-type(4) > h4::before {
+ background-color: #ff9445;
+}
+.modal-menu-list > div:nth-of-type(5) > h4::before {
+ background-color: #ffc000;
+}
+.modal-menu-list > div:nth-of-type(6) > h4::before {
+ background-color: #19cb8b;
+}
+.modal-menu-list > div:nth-of-type(7) > h4::before {
+ background-color: #0068ff;
+}
+.modal-submenu {
+ position: relative;
+ width: 100%;
+}
+.modal-submenu > li {
+ position: relative;
+ width: 100%;
+ border-bottom: 1px solid #f5f6f7;
+}
+.modal-submenu > li > a {
+ position: relative;
+ width: 100%;
+ padding: 1.2rem 0 1.2rem 1.5rem;
+ font-size: 1.6rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.modal-submenu > li > a::after {
+ content: "";
+ display: block;
+ width: 14px;
+ height: 14px;
+ background: url("../images/common/ico-common-arrow-14.svg") no-repeat center;
+ background-size: contain;
+ transform: rotate(90deg);
+ transition: transform 0.3s;
+}
+.modal-submenu > li.open > a::after {
+ transform: rotate(-90deg);
+}
+.modal-submenu > li > ul {
+ position: relative;
+ width: 100%;
+ /* padding-top: 0.6rem; */
+ margin-bottom: 1px;
+ /* border-top: 1px solid #f5f6f7; */
+ height: 0;
+ overflow: hidden;
+ transition: height 0.3s;
+}
+.modal-submenu > li > ul > li {
+ position: relative;
+ width: 100%;
+}
+.modal-submenu > li > ul > li > a {
+ position: relative;
+ width: 100%;
+ padding: 1rem 0 1rem 3.1rem;
+ line-height: 2.4rem;
+ font-size: 1.6rem;
 }
 
-.modal-menu-nav {
-  position: sticky;
-  top: 0;
-  background-color: #fff;
-  z-index: 3;
+/* 모달 푸터 */
+.modal-footer {
+ position: relative;
+ width: 100%;
+}
+.modal-footer-inner {
+ position: relative;
+ width: 100%;
+ padding: 4rem 2rem 0;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.8rem;
+}
+.modal-footer-inner a {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: calc(50% - 0.8rem);
+ min-height: 44px;
+ font-family: "SS-bold";
+ font-size: 1.6rem;
+ line-height: 2rem;
+ padding: 1rem 1.6rem 1.2rem;
+ background-color: #f7f8f9;
 }

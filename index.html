@@ -1,1307 +1,1348 @@
 <!DOCTYPE html>
 <html lang="ko">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>삼성화재 클론코딩</title>
-  <link rel="stylesheet" href="css/normalize.css" />
-  <!-- Link Swiper's CSS -->
-  <link
-   rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-  <link rel="stylesheet" href="css/font.css" />
-  <link rel="stylesheet" href="css/global.css" />
-  <link rel="stylesheet" href="css/header/header.css" />
-  <link rel="stylesheet" href="css/main/main.css" />
-  <link rel="stylesheet" href="css/main/sw-banner.css" />
-  <link rel="stylesheet" href="css/main/sw-shortcut.css" />
-  <link rel="stylesheet" href="css/main/sw-card.css" />
-  <link rel="stylesheet" href="css/footer/footer.css" />
-  <link rel="stylesheet" href="css/footer/navbar.css" />
-  <link rel="stylesheet" href="css/modal.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>삼성화재 클론코딩</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header/header.css" />
+    <link rel="stylesheet" href="css/main/main.css" />
+    <link rel="stylesheet" href="css/main/sw-banner.css" />
+    <link rel="stylesheet" href="css/main/sw-shortcut.css" />
+    <link rel="stylesheet" href="css/main/sw-card.css" />
+    <link rel="stylesheet" href="css/footer/footer.css" />
+    <link rel="stylesheet" href="css/footer/navbar.css" />
+    <link rel="stylesheet" href="css/modal.css" />
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="js/header.js" defer></script>
-  <script src="js/swBanner.js" defer></script>
-  <script src="js/swShortcut.js" defer></script>
-  <script src="js/swCard.js" defer></script>
-  <script src="js/sideBanner.js" defer></script>
-  <script src="js/footer.js" defer></script>
-  <script src="js/modal.js" defer></script>
- </head>
- <body>
-  <div class="wrap">
-   <!-- header section -->
-   <header class="header">
-    <div class="header-top">
-     <div class="inner">
-      <div class="header-top-left">
-       <ul>
-        <li><a href="#">기업보험</a></li>
-        <li><a href="#">삼성화재 다이렉트</a></li>
-        <li><a href="#">회사소개</a></li>
-        <li><a href="#">IR</a></li>
-        <li><a href="#">공시실</a></li>
-        <li><a href="#">소비자포털</a></li>
-        <li><a href="#">RC(보험설계사)</a></li>
-       </ul>
-      </div>
-      <div class="header-top-right">
-       <ul>
-        <li><a href="#">회원가입</a></li>
-        <li><a href="#">로그인</a></li>
-       </ul>
-      </div>
-     </div>
-    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/header.js" defer></script>
+    <script src="js/swBanner.js" defer></script>
+    <script src="js/swShortcut.js" defer></script>
+    <script src="js/swCard.js" defer></script>
+    <script src="js/sideBanner.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/modal.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- header section -->
+      <header class="header">
+        <div class="header-top">
+          <div class="inner">
+            <div class="header-top-left">
+              <ul>
+                <li><a href="#">기업보험</a></li>
+                <li><a href="#">삼성화재 다이렉트</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">IR</a></li>
+                <li><a href="#">공시실</a></li>
+                <li><a href="#">소비자포털</a></li>
+                <li><a href="#">RC(보험설계사)</a></li>
+              </ul>
+            </div>
+            <div class="header-top-right">
+              <ul>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <div class="header-bottom">
-     <div class="inner">
-      <div class="logo">
-       <a href="index.html">
-        <img src="images/common/header-logo.svg" alt="삼성화재 로고" />
-       </a>
-      </div>
+        <div class="header-bottom">
+          <div class="inner">
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/common/header-logo.svg" alt="삼성화재 로고" />
+              </a>
+            </div>
 
-      <nav class="gnb">
-       <ul>
-        <li><a href="#">계약관리</a></li>
-        <li><a href="#">보험상품</a></li>
-        <li><a href="#">보상</a></li>
-        <li><a href="#">대출</a></li>
-        <li><a href="#">퇴직연금</a></li>
-        <li><a href="#">혜택/서비스</a></li>
-        <li><a href="#">고객센터</a></li>
-       </ul>
-      </nav>
+            <nav class="gnb">
+              <ul>
+                <li><a href="#">계약관리</a></li>
+                <li><a href="#">보험상품</a></li>
+                <li><a href="#">보상</a></li>
+                <li><a href="#">대출</a></li>
+                <li><a href="#">퇴직연금</a></li>
+                <li><a href="#">혜택/서비스</a></li>
+                <li><a href="#">고객센터</a></li>
+              </ul>
+            </nav>
 
-      <div class="etc-menu">
-       <ul>
-        <li>
-         <a href="#">
-          <img src="images/common/ico-gnb-my-pc.svg" alt="프로필아이콘" />
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img src="images/common/ico-gnb-search-pc.svg" alt="검색아이콘" />
-         </a>
-        </li>
-        <li class="modal-menu-btn">
-         <a href="#">
-          <img src="images/common/ico-gnb-menu-pc.svg" alt="메뉴아이콘" />
-         </a>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </header>
+            <div class="etc-menu">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/common/ico-gnb-my-pc.svg"
+                      alt="프로필아이콘"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/common/ico-gnb-search-pc.svg"
+                      alt="검색아이콘"
+                    />
+                  </a>
+                </li>
+                <li class="modal-menu-btn">
+                  <a href="#">
+                    <img
+                      src="images/common/ico-gnb-menu-pc.svg"
+                      alt="메뉴아이콘"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
 
-   <!-- main section -->
-   <main class="main">
-    <div class="inner">
-     <div class="main-left">
-      <!-- 안녕하세요 로그인 모바일 -->
-      <div class="login-wrap-mb">
-       <div class="hello">
-        <img src="images/notice/off2.png" alt="안녕하세요" />
-        <span>안녕하세요!</span>
-       </div>
+      <!-- main section -->
+      <main class="main">
+        <div class="inner">
+          <div class="main-left">
+            <!-- 안녕하세요 로그인 모바일 -->
+            <div class="login-wrap-mb">
+              <div class="hello">
+                <img src="images/notice/off2.png" alt="안녕하세요" />
+                <span>안녕하세요!</span>
+              </div>
 
-       <!-- <div class="btn">
+              <!-- <div class="btn">
         <a href="#">로그인</a>
        </div> -->
 
-       <!-- <ul class="etc">
+              <!-- <ul class="etc">
         <li><a href="#">회원가입</a></li>
         <li><a href="#">인증센터</a></li>
        </ul> -->
-      </div>
+            </div>
 
-      <!-- 메인 배너 스와이퍼 -->
-      <div class="sw-banner-section">
-       <!-- Swiper -->
-       <div class="swiper sw-banner">
-        <div class="swiper-wrapper">
-         <div class="swiper-slide">Slide 1</div>
-         <div class="swiper-slide">Slide 2</div>
-         <div class="swiper-slide">Slide 3</div>
-         <div class="swiper-slide">Slide 4</div>
-         <div class="swiper-slide">Slide 5</div>
-         <div class="swiper-slide">Slide 6</div>
-         <div class="swiper-slide">Slide 7</div>
-        </div>
-        <div class="page-nav">
-         <div class="prev-btn">
-          <a href="#">
-           <img src="images/main/homepage/slider_prev.svg" alt="이전" />
-          </a>
-         </div>
-         <div class="banner-pagination"></div>
-         <div class="next-bnt">
-          <a href="#">
-           <img src="images/main/homepage/slider_next.svg" alt="다음" />
-          </a>
-         </div>
-         <div class="play-stop-btn">
-          <!-- <a href="#">
+            <!-- 메인 배너 스와이퍼 -->
+            <div class="sw-banner-section">
+              <!-- Swiper -->
+              <div class="swiper sw-banner">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">Slide 7</div>
+                </div>
+                <div class="page-nav">
+                  <div class="prev-btn">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/slider_prev.svg"
+                        alt="이전"
+                      />
+                    </a>
+                  </div>
+                  <div class="banner-pagination"></div>
+                  <div class="next-bnt">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/slider_next.svg"
+                        alt="다음"
+                      />
+                    </a>
+                  </div>
+                  <div class="play-stop-btn">
+                    <!-- <a href="#">
                       <img
                         src="images/main/homepage/slider_play.svg"
                         alt="재생"
                       />
                     </a> -->
-         </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 자주찾는 메뉴 모바일 -->
+            <div class="shortcut-wrap-mb">
+              <div class="swiper sw-shortcut">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_1.svg"
+                        alt="계약내용확인"
+                      />
+                      <span>계약내용<br />확인</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_2.svg"
+                        alt="보험금청구"
+                      />
+                      <span>보험금<br />청구</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_3.svg"
+                        alt="보험계약대출"
+                      />
+                      <span>보험계약<br />대출</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_4.svg"
+                        alt="보험료납입"
+                      />
+                      <span>보험료<br />납입</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_5.svg"
+                        alt="증명서발급"
+                      />
+                      <span>증명서<br />발급</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_6.svg"
+                        alt="완전판매모니터링"
+                      />
+                      <span>완전판매<br />모니터링</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_7.svg"
+                        alt="임시운전자특약"
+                      />
+                      <span>임시운전자<br />특약</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img
+                        src="images/main/homepage/menu_shortcut_8.svg"
+                        alt="필요서류안내"
+                      />
+                      <span>필요서류<br />안내</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 자동차 고장출동, 사고접수 모바일 -->
+            <div class="car-wrap-mb">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/ico_emergency1.svg"
+                      alt="자동차고장출동"
+                    />
+                    <span>자동차 고장출동</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/ico_emergency2.svg"
+                      alt="자동차사고접수"
+                    />
+                    <span>자동차 사고접수</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 많은 분들이 선택한 상품이에요 제품 영역 -->
+            <div class="product-section">
+              <h4>
+                <span>많은 분들이 선택한 상품이에요</span>
+              </h4>
+              <div class="product-wrap">
+                <div class="product-left">
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/product_tit_6.png"
+                      alt="보험상품 한눈에 보기"
+                    />
+                    <div class="text">
+                      <p>보험상품 한눈에 보기</p>
+                      <img
+                        src="images/common/ico-common-arrow-14-b.svg"
+                        alt="화살표"
+                      />
+                    </div>
+                  </a>
+                </div>
+
+                <div class="product-right">
+                  <a href="#" class="card">
+                    <img
+                      src="images/main/homepage/product_img_15.png"
+                      alt="다이렉트 해외여행보험"
+                    />
+                    <div class="text">
+                      <h5>다이렉트 해외여행보험</h5>
+                      <p>
+                        안전한<br />
+                        나의 여행을 위해!
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#" class="card">
+                    <img
+                      src="images/main/homepage/product_img_7.png"
+                      alt="다이렉트 자동차보험"
+                    />
+                    <div class="text">
+                      <h5>다이렉트 자동차보험</h5>
+                      <p>
+                        다이렉트로 저렴하게<br />
+                        보상서비스는 그대로!
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#" class="card">
+                    <img
+                      src="images/main/homepage/product_img_8.png"
+                      alt="다이렉트 운전자보험"
+                    />
+                    <div class="text">
+                      <h5>다이렉트 운전자보험</h5>
+                      <p>
+                        핵심담보만 가입하는<br />
+                        착한3천플랜!
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#" class="card">
+                    <img
+                      src="images/main/homepage/product_img_10.png"
+                      alt="함께가는 요양건강보험"
+                    />
+                    <div class="text">
+                      <h5>함께가는 요양건강보험</h5>
+                      <p>
+                        합리적인 보험료로 <br />
+                        행복한 노후를 준비하세요
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#" class="card">
+                    <img
+                      src="images/main/homepage/product_img_11.png"
+                      alt="마이핏 건강보험"
+                    />
+                    <div class="text">
+                      <h5>마이핏 건강보험</h5>
+                      <p>
+                        내 생애주기에 맞게 <br />
+                        필요한 보장을 선택하세요
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#" class="card">
+                    <img
+                      src="images/main/homepage/product_img_12.png"
+                      alt="직장인신용대출"
+                    />
+                    <div class="text">
+                      <h5>직장인신용대출</h5>
+                      <p>
+                        대출 한도 확인부터 <br />
+                        지급까지 한 번에!
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 카드 스와이퍼 -->
+            <div class="sw-card-section">
+              <!-- Swiper -->
+              <div class="swiper sw-card">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+
+            <!-- 사이드 배너 모바일 -->
+            <div class="side-banner-wrap-mb">
+              <div class="side-banner">
+                <a href="#">
+                  <div class="text">
+                    <h5>보험 가입이 어렵다면?</h5>
+                    <p>
+                      보험 전문가와<br />
+                      간편하게 상담해 보세요
+                    </p>
+                  </div>
+                  <img
+                    src="images/main/homepage/side_banner_1.png"
+                    alt="보험 가입이 어렵다면"
+                  />
+                </a>
+              </div>
+              <div class="side-banner">
+                <a href="#">
+                  <div class="text">
+                    <h5>
+                      내보험 잘<br />
+                      보장받고 있을까요?
+                    </h5>
+                    <p>셀프 보장분석으로 알아보세요</p>
+                  </div>
+                  <img
+                    src="images/main/homepage/side_banner_2.png"
+                    alt="내보험 잘 보장받고 있을까요?"
+                  />
+                </a>
+              </div>
+              <div class="side-banner">
+                <a href="#">
+                  <div class="text">
+                    <h5>
+                      삼성화재 RC(보험설계사)에<br />
+                      도전해 보세요
+                    </h5>
+                    <p>
+                      정년 없는 안정적인 직업을<br />
+                      알아보세요
+                    </p>
+                  </div>
+                  <img
+                    src="images/main/homepage/btm_banner_img_1.png"
+                    alt="삼성화재 RC(보험설계사)에 도전해 보세요"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!-- 알려드려요 고객지원 영역 -->
+            <div class="notice-customer-section">
+              <div class="notice">
+                <div class="notice-header">
+                  <h4>알려드려요</h4>
+                  <a href="#">
+                    <span>더보기</span>
+                    <img
+                      src="images/common/ico-common-arrow-14.svg"
+                      alt="더보기"
+                    />
+                  </a>
+                </div>
+
+                <ul>
+                  <li>
+                    <a href="#">[안내] Super보험 보험계약대출 한도 조정</a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      [알림] 2025년 5월 자동차 보험사기 피해자 할증보험료 환급
+                      등 피해구제
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">[안내] SKT 이용자 피해 예방 수칙</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="customer">
+                <div class="customer-header">
+                  <h4>고객지원</h4>
+                </div>
+
+                <ul>
+                  <li>
+                    <a href="#">자주하는 질문</a>
+                  </li>
+                  <li>
+                    <a href="#">지점/서비스망 찾기</a>
+                  </li>
+                  <li>
+                    <a href="#">칭찬한마디</a>
+                  </li>
+                  <li>
+                    <a href="#">금융소비자포털</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-right">
+            <!-- 안녕하세요 -->
+            <div class="login-wrap">
+              <div class="hello">
+                <img src="images/notice/off2.png" alt="안녕하세요" />
+                <span>안녕하세요!</span>
+              </div>
+
+              <div class="btn">
+                <a href="#">로그인</a>
+              </div>
+
+              <ul class="etc">
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">인증센터</a></li>
+              </ul>
+            </div>
+
+            <!-- 자주찾는 메뉴 -->
+            <div class="shortcut-wrap">
+              <h4>자주찾는 메뉴</h4>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_1.svg"
+                      alt="계약내용확인"
+                    />
+                    <span>계약내용<br />확인</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_2.svg"
+                      alt="보험금청구"
+                    />
+                    <span>보험금<br />청구</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_3.svg"
+                      alt="보험계약대출"
+                    />
+                    <span>보험계약<br />대출</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_4.svg"
+                      alt="보험료납입"
+                    />
+                    <span>보험료<br />납입</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_5.svg"
+                      alt="증명서발급"
+                    />
+                    <span>증명서<br />발급</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_6.svg"
+                      alt="완전판매모니터링"
+                    />
+                    <span>완전판매<br />모니터링</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_7.svg"
+                      alt="임시운전자특약"
+                    />
+                    <span>임시운전자<br />특약</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_8.svg"
+                      alt="필요서류안내"
+                    />
+                    <span>필요서류<br />안내</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="images/main/homepage/menu_shortcut_9.svg"
+                      alt="자동차사고접수"
+                    />
+                    <span>자동차사고<br />접수</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 사이드 배너 -->
+            <div class="side-banner-wrap">
+              <div class="side-banner">
+                <a href="#">
+                  <div class="text">
+                    <h5>보험 가입이 어렵다면?</h5>
+                    <p>
+                      보험 전문가와<br />
+                      간편하게 상담해 보세요
+                    </p>
+                  </div>
+                  <img
+                    src="images/main/homepage/side_banner_1.png"
+                    alt="보험 가입이 어렵다면"
+                  />
+                </a>
+              </div>
+              <div class="side-banner">
+                <a href="#">
+                  <div class="text">
+                    <h5>
+                      내보험 잘<br />
+                      보장받고 있을까요?
+                    </h5>
+                    <p>셀프 보장분석으로 알아보세요</p>
+                  </div>
+                  <img
+                    src="images/main/homepage/side_banner_2.png"
+                    alt="내보험 잘 보장받고 있을까요?"
+                  />
+                </a>
+              </div>
+              <div class="side-banner">
+                <a href="#">
+                  <div class="text">
+                    <h5>
+                      삼성화재 RC(보험설계사)에<br />
+                      도전해 보세요
+                    </h5>
+                    <p>
+                      정년 없는 안정적인 직업을<br />
+                      알아보세요
+                    </p>
+                  </div>
+                  <img
+                    src="images/main/homepage/btm_banner_img_1.png"
+                    alt="삼성화재 RC(보험설계사)에 도전해 보세요"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
-      </div>
+      </main>
 
-      <!-- 자주찾는 메뉴 모바일 -->
-      <div class="shortcut-wrap-mb">
-       <div class="swiper sw-shortcut">
-        <div class="swiper-wrapper">
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_1.svg"
-            alt="계약내용확인"
-           />
-           <span>계약내용<br />확인</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_2.svg"
-            alt="보험금청구"
-           />
-           <span>보험금<br />청구</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_3.svg"
-            alt="보험계약대출"
-           />
-           <span>보험계약<br />대출</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_4.svg"
-            alt="보험료납입"
-           />
-           <span>보험료<br />납입</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_5.svg"
-            alt="증명서발급"
-           />
-           <span>증명서<br />발급</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_6.svg"
-            alt="완전판매모니터링"
-           />
-           <span>완전판매<br />모니터링</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_7.svg"
-            alt="임시운전자특약"
-           />
-           <span>임시운전자<br />특약</span>
-          </a>
-         </div>
-         <div class="swiper-slide">
-          <a href="#">
-           <img
-            src="images/main/homepage/menu_shortcut_8.svg"
-            alt="필요서류안내"
-           />
-           <span>필요서류<br />안내</span>
-          </a>
-         </div>
+      <!-- footer section -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="inner">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>소비자보호</span>
+                  <img
+                    src="images/common/ico-common-fold-arr.svg"
+                    alt="소비자보호"
+                  />
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">휴면보험금 출연 안내</a></li>
+                  <li><a href="#">자동차 간접손해보험금 안내</a></li>
+                  <li><a href="#">과납보험료 환급신청</a></li>
+                  <li><a href="#">서민금융 1332</a></li>
+                  <li><a href="#">자동차리콜센터</a></li>
+                  <li><a href="#">신용정보활용체제공시</a></li>
+                  <li><a href="#">전자금융거래 유의사항</a></li>
+                  <li><a href="#">이메일 무단수집 거부</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>신고센터</span>
+                  <img
+                    src="images/common/ico-common-fold-arr.svg"
+                    alt="신고센터"
+                  />
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">Comming Soon</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>해외법인</span>
+                  <img
+                    src="images/common/ico-common-fold-arr.svg"
+                    alt="해외법인"
+                  />
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">Comming Soon</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>패밀리사이트</span>
+                  <img
+                    src="images/common/ico-common-fold-arr.svg"
+                    alt="패밀리사이트"
+                  />
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">Comming Soon</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>삼성화재 SNS</span>
+                  <img
+                    src="images/common/ico-common-fold-arr.svg"
+                    alt="삼성화재 SNS"
+                  />
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">Comming Soon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-       </div>
-      </div>
-      <!-- 자동차 고장출동, 사고접수 모바일 -->
-      <div class="car-wrap-mb">
-       <ul>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/ico_emergency1.svg"
-           alt="자동차고장출동"
-          />
-          <span>자동차 고장출동</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/ico_emergency2.svg"
-           alt="자동차사고접수"
-          />
-          <span>자동차 사고접수</span>
-         </a>
-        </li>
-       </ul>
-      </div>
-
-      <!-- 많은 분들이 선택한 상품이에요 제품 영역 -->
-      <div class="product-section">
-       <h4>
-        <span>많은 분들이 선택한 상품이에요</span>
-       </h4>
-       <div class="product-wrap">
-        <div class="product-left">
-         <a href="#">
-          <img
-           src="images/main/homepage/product_tit_6.png"
-           alt="보험상품 한눈에 보기"
-          />
-          <div class="text">
-           <p>보험상품 한눈에 보기</p>
-           <img src="images/common/ico-common-arrow-14-b.svg" alt="화살표" />
+        <div class="footer-bottom">
+          <div class="inner">
+            <div class="policy">
+              <a href="#">상품공시</a>
+              <a href="#">보험가격공시</a>
+              <a href="#">보험금융상품등록부</a>
+              <a href="#">회원가입약관</a>
+              <a href="#">소비자포털</a>
+              <a href="#">개인정보관리책임자</a>
+              <a href="#">개인정보처리방침</a>
+              <a href="#">고객정보취급방침</a>
+            </div>
+            <!-- 푸터 모바일 SNS 영역 -->
+            <div class="sns-wrap-mb">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="images/common/footer-sns1.svg" alt="유튜브" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/common/footer-sns2.svg" alt="인스타그램" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/common/footer-sns3.svg" alt="페이스북" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/common/footer-sns4.svg" alt="네이버" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- 푸터 모바일 정책 영역 -->
+            <div class="policy-wrap-mp">
+              <div class="policy-item"><a href="#">회사소개</a></div>
+              <div class="policy-item"><a href="#">IR</a></div>
+              <div class="policy-item"><a href="#">공시실</a></div>
+              <div class="policy-item"><a href="#">소비자포털</a></div>
+              <div class="policy-item"><a href="#">RC(보험설계사)</a></div>
+              <div class="policy-item-br"></div>
+              <div class="policy-item"><a href="#">개인정보처리방침</a></div>
+              <div class="policy-item"><a href="#">고객정보취급방침</a></div>
+              <div class="policy-item-br"></div>
+              <div class="policy-item">
+                <a href="#">위치기반서비스이용약관</a>
+              </div>
+            </div>
+            <div class="info">
+              <div class="info-right">
+                <a href="#">
+                  <img
+                    src="images/common/ico-footer-tell.svg"
+                    alt="삼성화재 업무별 콜센터 안내"
+                  />
+                  <span>삼성화재 업무별 콜센터 안내</span>
+                </a>
+              </div>
+              <div class="info-left">
+                <ul>
+                  <li>삼성화재해상보험주식회사</li>
+                  <li>대표이사 사장 이문화</li>
+                  <li class="flex-full">서울특별시 서초구 서초대로 74길 14</li>
+                  <li class="flex-full">사업자등록번호 202-81-45617</li>
+                </ul>
+                <div class="copyright">
+                  <span>
+                    © Samsung Fire & Marine Insurance Co., Ltd.
+                    <br class="mb-only" />
+                    All Rights Reserved.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="footer-logo-wrap">
+              <div class="footer-logo">
+                <img src="images/common/footer-logo.svg" alt="하단로고" />
+              </div>
+              <div class="footer-mark">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/common/footer-mark1.png"
+                        alt="국가고객만족도-NCSI"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/common/footer-mark2.png"
+                        alt="한국산업 고객만족도-KCSI"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/common/footer-mark3.png"
+                        alt="개인정보보호인증-ePRIVACY PLUS"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-         </a>
         </div>
+      </footer>
+    </div>
 
-        <div class="product-right">
-         <a href="#" class="card">
-          <img
-           src="images/main/homepage/product_img_15.png"
-           alt="다이렉트 해외여행보험"
-          />
-          <div class="text">
-           <h5>다이렉트 해외여행보험</h5>
-           <p>
-            안전한<br />
-            나의 여행을 위해!
-           </p>
-          </div>
-         </a>
-         <a href="#" class="card">
-          <img
-           src="images/main/homepage/product_img_7.png"
-           alt="다이렉트 자동차보험"
-          />
-          <div class="text">
-           <h5>다이렉트 자동차보험</h5>
-           <p>
-            다이렉트로 저렴하게<br />
-            보상서비스는 그대로!
-           </p>
-          </div>
-         </a>
-         <a href="#" class="card">
-          <img
-           src="images/main/homepage/product_img_8.png"
-           alt="다이렉트 운전자보험"
-          />
-          <div class="text">
-           <h5>다이렉트 운전자보험</h5>
-           <p>
-            핵심담보만 가입하는<br />
-            착한3천플랜!
-           </p>
-          </div>
-         </a>
-         <a href="#" class="card">
-          <img
-           src="images/main/homepage/product_img_10.png"
-           alt="함께가는 요양건강보험"
-          />
-          <div class="text">
-           <h5>함께가는 요양건강보험</h5>
-           <p>
-            합리적인 보험료로 <br />
-            행복한 노후를 준비하세요
-           </p>
-          </div>
-         </a>
-         <a href="#" class="card">
-          <img
-           src="images/main/homepage/product_img_11.png"
-           alt="마이핏 건강보험"
-          />
-          <div class="text">
-           <h5>마이핏 건강보험</h5>
-           <p>
-            내 생애주기에 맞게 <br />
-            필요한 보장을 선택하세요
-           </p>
-          </div>
-         </a>
-         <a href="#" class="card">
-          <img
-           src="images/main/homepage/product_img_12.png"
-           alt="직장인신용대출"
-          />
-          <div class="text">
-           <h5>직장인신용대출</h5>
-           <p>
-            대출 한도 확인부터 <br />
-            지급까지 한 번에!
-           </p>
-          </div>
-         </a>
-        </div>
-       </div>
+    <!-- 네비게이션 바 -->
+    <aside class="bt-navbar">
+      <div class="bt-navbar-bg">
+        <span class="round"></span>
       </div>
-
-      <!-- 카드 스와이퍼 -->
-      <div class="sw-card-section">
-       <!-- Swiper -->
-       <div class="swiper sw-card">
-        <div class="swiper-wrapper">
-         <div class="swiper-slide">Slide 1</div>
-         <div class="swiper-slide">Slide 2</div>
-         <div class="swiper-slide">Slide 3</div>
-         <div class="swiper-slide">Slide 4</div>
-        </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-       </div>
-      </div>
-
-      <!-- 사이드 배너 모바일 -->
-      <div class="side-banner-wrap-mb">
-       <div class="side-banner">
-        <a href="#">
-         <div class="text">
-          <h5>보험 가입이 어렵다면?</h5>
-          <p>
-           보험 전문가와<br />
-           간편하게 상담해 보세요
-          </p>
-         </div>
-         <img
-          src="images/main/homepage/side_banner_1.png"
-          alt="보험 가입이 어렵다면"
-         />
-        </a>
-       </div>
-       <div class="side-banner">
-        <a href="#">
-         <div class="text">
-          <h5>
-           내보험 잘<br />
-           보장받고 있을까요?
-          </h5>
-          <p>셀프 보장분석으로 알아보세요</p>
-         </div>
-         <img
-          src="images/main/homepage/side_banner_2.png"
-          alt="내보험 잘 보장받고 있을까요?"
-         />
-        </a>
-       </div>
-       <div class="side-banner">
-        <a href="#">
-         <div class="text">
-          <h5>
-           삼성화재 RC(보험설계사)에<br />
-           도전해 보세요
-          </h5>
-          <p>
-           정년 없는 안정적인 직업을<br />
-           알아보세요
-          </p>
-         </div>
-         <img
-          src="images/main/homepage/btm_banner_img_1.png"
-          alt="삼성화재 RC(보험설계사)에 도전해 보세요"
-         />
-        </a>
-       </div>
-      </div>
-
-      <!-- 알려드려요 고객지원 영역 -->
-      <div class="notice-customer-section">
-       <div class="notice">
-        <div class="notice-header">
-         <h4>알려드려요</h4>
-         <a href="#">
-          <span>더보기</span>
-          <img src="images/common/ico-common-arrow-14.svg" alt="더보기" />
-         </a>
-        </div>
-
+      <div class="bt-navbar-inner">
         <ul>
-         <li>
-          <a href="#">[안내] Super보험 보험계약대출 한도 조정</a>
-         </li>
-         <li>
-          <a href="#">
-           [알림] 2025년 5월 자동차 보험사기 피해자 할증보험료 환급 등 피해구제
-          </a>
-         </li>
-         <li>
-          <a href="#">[안내] SKT 이용자 피해 예방 수칙</a>
-         </li>
+          <li>
+            <a href="#">
+              <p>홈</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>상품</p>
+            </a>
+          </li>
+          <li class="consultant">
+            <a href="#">
+              <p>가입상담</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>혜택</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>마이</p>
+            </a>
+          </li>
         </ul>
-       </div>
+      </div>
+    </aside>
 
-       <div class="customer">
-        <div class="customer-header">
-         <h4>고객지원</h4>
+    <!-- 모달 -->
+    <div class="modal-wrap">
+      <div class="modal-inner">
+        <!-- 모달 헤더 -->
+        <div class="modal-header">
+          <h3 class="modal-nav-logo">
+            <div class="logo">
+              <a href="#">
+                <span>삼성화재</span>
+              </a>
+            </div>
+            <div class="login-btn">
+              <a href="#">
+                <span>로그인</span>
+              </a>
+            </div>
+          </h3>
         </div>
-
-        <ul>
-         <li>
-          <a href="#">자주하는 질문</a>
-         </li>
-         <li>
-          <a href="#">지점/서비스망 찾기</a>
-         </li>
-         <li>
-          <a href="#">칭찬한마디</a>
-         </li>
-         <li>
-          <a href="#">금융소비자포털</a>
-         </li>
-        </ul>
-       </div>
-      </div>
-     </div>
-
-     <div class="main-right">
-      <!-- 안녕하세요 -->
-      <div class="login-wrap">
-       <div class="hello">
-        <img src="images/notice/off2.png" alt="안녕하세요" />
-        <span>안녕하세요!</span>
-       </div>
-
-       <div class="btn">
-        <a href="#">로그인</a>
-       </div>
-
-       <ul class="etc">
-        <li><a href="#">회원가입</a></li>
-        <li><a href="#">인증센터</a></li>
-       </ul>
-      </div>
-
-      <!-- 자주찾는 메뉴 -->
-      <div class="shortcut-wrap">
-       <h4>자주찾는 메뉴</h4>
-       <ul>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_1.svg"
-           alt="계약내용확인"
-          />
-          <span>계약내용<br />확인</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_2.svg"
-           alt="보험금청구"
-          />
-          <span>보험금<br />청구</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_3.svg"
-           alt="보험계약대출"
-          />
-          <span>보험계약<br />대출</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_4.svg"
-           alt="보험료납입"
-          />
-          <span>보험료<br />납입</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_5.svg"
-           alt="증명서발급"
-          />
-          <span>증명서<br />발급</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_6.svg"
-           alt="완전판매모니터링"
-          />
-          <span>완전판매<br />모니터링</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_7.svg"
-           alt="임시운전자특약"
-          />
-          <span>임시운전자<br />특약</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_8.svg"
-           alt="필요서류안내"
-          />
-          <span>필요서류<br />안내</span>
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img
-           src="images/main/homepage/menu_shortcut_9.svg"
-           alt="자동차사고접수"
-          />
-          <span>자동차사고<br />접수</span>
-         </a>
-        </li>
-       </ul>
-      </div>
-
-      <!-- 사이드 배너 -->
-      <div class="side-banner-wrap">
-       <div class="side-banner">
-        <a href="#">
-         <div class="text">
-          <h5>보험 가입이 어렵다면?</h5>
-          <p>
-           보험 전문가와<br />
-           간편하게 상담해 보세요
-          </p>
-         </div>
-         <img
-          src="images/main/homepage/side_banner_1.png"
-          alt="보험 가입이 어렵다면"
-         />
-        </a>
-       </div>
-       <div class="side-banner">
-        <a href="#">
-         <div class="text">
-          <h5>
-           내보험 잘<br />
-           보장받고 있을까요?
-          </h5>
-          <p>셀프 보장분석으로 알아보세요</p>
-         </div>
-         <img
-          src="images/main/homepage/side_banner_2.png"
-          alt="내보험 잘 보장받고 있을까요?"
-         />
-        </a>
-       </div>
-       <div class="side-banner">
-        <a href="#">
-         <div class="text">
-          <h5>
-           삼성화재 RC(보험설계사)에<br />
-           도전해 보세요
-          </h5>
-          <p>
-           정년 없는 안정적인 직업을<br />
-           알아보세요
-          </p>
-         </div>
-         <img
-          src="images/main/homepage/btm_banner_img_1.png"
-          alt="삼성화재 RC(보험설계사)에 도전해 보세요"
-         />
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </main>
-
-   <!-- footer section -->
-   <footer class="footer">
-    <div class="footer-top">
-     <div class="inner">
-      <ul>
-       <li>
-        <a href="#">
-         <span>소비자보호</span>
-         <img src="images/common/ico-common-fold-arr.svg" alt="소비자보호" />
-        </a>
-        <ul class="submenu">
-         <li><a href="#">휴면보험금 출연 안내</a></li>
-         <li><a href="#">자동차 간접손해보험금 안내</a></li>
-         <li><a href="#">과납보험료 환급신청</a></li>
-         <li><a href="#">서민금융 1332</a></li>
-         <li><a href="#">자동차리콜센터</a></li>
-         <li><a href="#">신용정보활용체제공시</a></li>
-         <li><a href="#">전자금융거래 유의사항</a></li>
-         <li><a href="#">이메일 무단수집 거부</a></li>
-        </ul>
-       </li>
-       <li>
-        <a href="#">
-         <span>신고센터</span>
-         <img src="images/common/ico-common-fold-arr.svg" alt="신고센터" />
-        </a>
-        <ul class="submenu">
-         <li><a href="#">Comming Soon</a></li>
-        </ul>
-       </li>
-       <li>
-        <a href="#">
-         <span>해외법인</span>
-         <img src="images/common/ico-common-fold-arr.svg" alt="해외법인" />
-        </a>
-        <ul class="submenu">
-         <li><a href="#">Comming Soon</a></li>
-        </ul>
-       </li>
-       <li>
-        <a href="#">
-         <span>패밀리사이트</span>
-         <img src="images/common/ico-common-fold-arr.svg" alt="패밀리사이트" />
-        </a>
-        <ul class="submenu">
-         <li><a href="#">Comming Soon</a></li>
-        </ul>
-       </li>
-       <li>
-        <a href="#">
-         <span>삼성화재 SNS</span>
-         <img src="images/common/ico-common-fold-arr.svg" alt="삼성화재 SNS" />
-        </a>
-        <ul class="submenu">
-         <li><a href="#">Comming Soon</a></li>
-        </ul>
-       </li>
-      </ul>
-     </div>
-    </div>
-    <div class="footer-bottom">
-     <div class="inner">
-      <div class="policy">
-       <a href="#">상품공시</a>
-       <a href="#">보험가격공시</a>
-       <a href="#">보험금융상품등록부</a>
-       <a href="#">회원가입약관</a>
-       <a href="#">소비자포털</a>
-       <a href="#">개인정보관리책임자</a>
-       <a href="#">개인정보처리방침</a>
-       <a href="#">고객정보취급방침</a>
-      </div>
-      <!-- 푸터 모바일 SNS 영역 -->
-      <div class="sns-wrap-mb">
-       <ul>
-        <li>
-         <a href="#">
-          <img src="images/common/footer-sns1.svg" alt="유튜브" />
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img src="images/common/footer-sns2.svg" alt="인스타그램" />
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img src="images/common/footer-sns3.svg" alt="페이스북" />
-         </a>
-        </li>
-        <li>
-         <a href="#">
-          <img src="images/common/footer-sns4.svg" alt="네이버" />
-         </a>
-        </li>
-       </ul>
-      </div>
-      <!-- 푸터 모바일 정책 영역 -->
-      <div class="policy-wrap-mp">
-       <div class="policy-item"><a href="#">회사소개</a></div>
-       <div class="policy-item"><a href="#">IR</a></div>
-       <div class="policy-item"><a href="#">공시실</a></div>
-       <div class="policy-item"><a href="#">소비자포털</a></div>
-       <div class="policy-item"><a href="#">RC(보험설계사)</a></div>
-       <div class="policy-item-br"></div>
-       <div class="policy-item"><a href="#">개인정보처리방침</a></div>
-       <div class="policy-item"><a href="#">고객정보취급방침</a></div>
-       <div class="policy-item-br"></div>
-       <div class="policy-item"><a href="#">위치기반서비스이용약관</a></div>
-      </div>
-      <div class="info">
-       <div class="info-right">
-        <a href="#">
-         <img
-          src="images/common/ico-footer-tell.svg"
-          alt="삼성화재 업무별 콜센터 안내"
-         />
-         <span>삼성화재 업무별 콜센터 안내</span>
-        </a>
-       </div>
-       <div class="info-left">
-        <ul>
-         <li>삼성화재해상보험주식회사</li>
-         <li>대표이사 사장 이문화</li>
-         <li class="flex-full">서울특별시 서초구 서초대로 74길 14</li>
-         <li class="flex-full">사업자등록번호 202-81-45617</li>
-        </ul>
-        <div class="copyright">
-         <span>
-          © Samsung Fire & Marine Insurance Co., Ltd.
-          <br class="mb-only" />
-          All Rights Reserved.
-         </span>
+        <!-- 모달 닫기 버튼 -->
+        <div class="modal-close-btn"></div>
+        <!-- 모달 메뉴 -->
+        <div class="modal-menu-wrap">
+          <!-- 모달 검색 -->
+          <div class="modal-searchbar">
+            <input type="text" placeholder="삼성화재 메뉴 검색" />
+          </div>
+          <!-- 모달 메뉴 리스트 -->
+          <div class="modal-menu">
+            <div class="modal-menu-nav">
+              <ul>
+                <li class="on"><a href="#contract">계약관리</a></li>
+                <li><a href="#insurance">보험상품</a></li>
+                <li><a href="#reward">보상</a></li>
+                <li><a href="#loan">대출</a></li>
+                <li><a href="#retirement">퇴직연금</a></li>
+                <li><a href="#services">혜택/서비스</a></li>
+                <li><a href="#customer">고객센터</a></li>
+              </ul>
+            </div>
+            <div class="modal-menu-list">
+              <div id="contract">
+                <h4>계약관리</h4>
+                <ul class="modal-submenu depth2">
+                  <li>
+                    <a href="#">보험계약</a>
+                    <ul class="depth3">
+                      <li><a href="#">계약내용 확인</a></li>
+                      <li><a href="#">대리운전자보험계약 확인</a></li>
+                      <li><a href="#">TM계약 녹취 확인/신청</a></li>
+                      <li><a href="#">4세대 실손의료비 할인/할증 확인</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">장기보험</a>
+                    <ul>
+                      <li><a href="#">계약자 변경</a></li>
+                      <li><a href="#">수익자 변경</a></li>
+                      <li><a href="#">피보험자 직업 변경</a></li>
+                      <li><a href="#">이륜차 알릴사항 변경</a></li>
+                      <li><a href="#">자녀 등록(태아확정)</a></li>
+                      <li><a href="#">소재지 변경</a></li>
+                      <li><a href="#">연금보험료 변경</a></li>
+                      <li><a href="#">연금납입한도 설정</a></li>
+                      <li><a href="#">실손의료비 중지/재개 신청</a></li>
+                      <li>
+                        <a href="#">해외장기체류자 실손의료비 납입 중지 신청</a>
+                      </li>
+                      <li><a href="#">무사고 보험계약 전환</a></li>
+                      <li><a href="#">완전판매모니터링</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">자동차보험</a>
+                    <ul>
+                      <li><a href="#">가입금액/특약 변경</a></li>
+                      <li><a href="#">운전자 범위/연령 변경</a></li>
+                      <li><a href="#">임시운전자 특약 가입</a></li>
+                      <li><a href="#">임시운전자 특약 해지</a></li>
+                      <li><a href="#">마일리지 특약 가입</a></li>
+                      <li><a href="#">최종 주행거리 사진 등록</a></li>
+                      <li><a href="#">자동차번호 등록</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">여행보험</a>
+                    <ul>
+                      <li><a href="#">여행보험 기간 변경</a></li>
+                      <li><a href="#">여행보험 계약자 영문명 변경</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">납입</a>
+                    <ul>
+                      <li><a href="#">보험료 납입</a></li>
+                      <li><a href="#">연금(저축)보험료 추가 납입</a></li>
+                      <li><a href="#">효력상실예정계약 보험료 납입</a></li>
+                      <li><a href="#">보험료 납입방법 변경</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">환급/해지</a>
+                    <ul>
+                      <li><a href="#">환급내역 확인</a></li>
+                      <li><a href="#">환급금 수령계좌 변경</a></li>
+                      <li><a href="#">환급금/휴면보험금 신청</a></li>
+                      <li><a href="#">중도인출 신청</a></li>
+                      <li><a href="#">장기보험 해지</a></li>
+                      <li><a href="#">자동차보험 양도/말소해지</a></li>
+                      <li><a href="#">자동차보험 해지서류 제출</a></li>
+                      <li><a href="#">청약철회/개시 전 취소</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">펀드</a>
+                    <ul>
+                      <li><a href="#">펀드상품 안내</a></li>
+                      <li><a href="#">보유펀드 확인</a></li>
+                      <li><a href="#">펀드매매</a></li>
+                      <li><a href="#">출금가능금액 확인/출금</a></li>
+                      <li><a href="#">펀드계좌 관리</a></li>
+                      <li><a href="#">펀드 이용가이드</a></li>
+                      <li><a href="#">펀드상품 수시공시</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div id="insurance">
+                <h4>보험상품</h4>
+                <ul class="modal-submenu">
+                  <li>
+                    <a href="#">보험가이드</a>
+                    <ul>
+                      <li><a href="#">셀프 보장분석</a></li>
+                      <li><a href="#">보험상품 한눈에 보기</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">자동차보험</a>
+                    <ul>
+                      <li><a href="#">애니카 자동차보험</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">운전자/상해보험</a>
+                    <ul>
+                      <li><a href="#">안전운전 파트너 플러스</a></li>
+                      <li><a href="#">행복한 안심파트너</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">실손의료비보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">자녀보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">건강보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">치아보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">주택화재/풍수해보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">사업장화재/재물보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">연금보험</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">외국어 가입 상담(English/中文)</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div id="reward">
+                <h4>보상</h4>
+                <ul class="modal-submenu">
+                  <li>
+                    <a href="#">질병/상해</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">자동차</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">반려동물</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">재물/배상책임</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">보상가이드</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div id="loan">
+                <h4>대출</h4>
+                <ul class="modal-submenu">
+                  <li>
+                    <a href="#">보험계약대출</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">신용대출</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">담보대출</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">대출계약</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">금융소비자의 권리</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div id="retirement">
+                <h4>퇴직연금</h4>
+                <ul class="modal-submenu">
+                  <li>
+                    <a href="#">퇴직연금계약</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">상품운용</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">개인형퇴직연금(IRP)</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">확정연금</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">확정기여형퇴직연금(DC)</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">실물이전</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">퇴직연금제도</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">고객지원</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">PLUS 서비스</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div id="services">
+                <h4>혜택/서비스</h4>
+                <ul class="modal-submenu">
+                  <li>
+                    <a href="#">피크닉 서비스</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">애니포인트</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">헬스케어서비스</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Car케어서비스</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">착!한생활서비스</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">생활부가서비스</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">라이프케어</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">소셜미디어</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">이벤트</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div id="customer">
+                <h4>고객센터</h4>
+                <ul class="modal-submenu">
+                  <li>
+                    <a href="#">내정보</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">증명서</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">고객지원</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">공지사항</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">고객의소리</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">인증센터</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">홈페이지이용약관</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">개인정보보호</a>
+                    <ul>
+                      <li><a href="#">Comming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- 모달 푸터 -->
+          <div class="modal-footer">
+            <div class="modal-footer-inner">
+              <a href="#">회사소개</a>
+              <a href="#">공시실</a>
+              <a href="#">소비자포털</a>
+              <a href="#">RC(보험설계사)</a>
+            </div>
+          </div>
         </div>
-       </div>
       </div>
-      <div class="footer-logo-wrap">
-       <div class="footer-logo">
-        <img src="images/common/footer-logo.svg" alt="하단로고" />
-       </div>
-       <div class="footer-mark">
-        <ul>
-         <li>
-          <a href="#">
-           <img
-            src="images/common/footer-mark1.png"
-            alt="국가고객만족도-NCSI"
-           />
-          </a>
-         </li>
-         <li>
-          <a href="#">
-           <img
-            src="images/common/footer-mark2.png"
-            alt="한국산업 고객만족도-KCSI"
-           />
-          </a>
-         </li>
-         <li>
-          <a href="#">
-           <img
-            src="images/common/footer-mark3.png"
-            alt="개인정보보호인증-ePRIVACY PLUS"
-           />
-          </a>
-         </li>
-        </ul>
-       </div>
-      </div>
-     </div>
     </div>
-   </footer>
-  </div>
-
-  <!-- 네비게이션 바 -->
-  <aside class="bt-navbar">
-   <div class="bt-navbar-bg">
-    <span class="round"></span>
-   </div>
-   <div class="bt-navbar-inner">
-    <ul>
-     <li>
-      <a href="#">
-       <p>홈</p>
-      </a>
-     </li>
-     <li>
-      <a href="#">
-       <p>상품</p>
-      </a>
-     </li>
-     <li class="consultant">
-      <a href="#">
-       <p>가입상담</p>
-      </a>
-     </li>
-     <li>
-      <a href="#">
-       <p>혜택</p>
-      </a>
-     </li>
-     <li>
-      <a href="#">
-       <p>마이</p>
-      </a>
-     </li>
-    </ul>
-   </div>
-  </aside>
-
-  <!-- 모달 -->
-  <div class="modal-wrap">
-   <div class="modal-inner">
-    <!-- 모달 헤더 -->
-    <div class="modal-header">
-     <h3 class="modal-nav-logo">
-      <div class="logo">
-       <a href="#">
-        <span>삼성화재</span>
-       </a>
-      </div>
-      <div class="login-btn">
-       <a href="#">
-        <span>로그인</span>
-       </a>
-      </div>
-     </h3>
-    </div>
-    <!-- 모달 닫기 버튼 -->
-    <div class="modal-close-btn"></div>
-    <!-- 모달 메뉴 -->
-    <div class="modal-menu-wrap">
-     <!-- 모달 검색 -->
-     <div class="modal-searchbar">
-      <input type="text" placeholder="삼성화재 메뉴 검색" />
-     </div>
-     <!-- 모달 메뉴 리스트 -->
-     <div class="modal-menu">
-      <div class="modal-menu-nav">
-       <ul>
-        <li class="on"><a href="#contract">계약관리</a></li>
-        <li><a href="#insurance">보험상품</a></li>
-        <li><a href="#reward">보상</a></li>
-        <li><a href="#loan">대출</a></li>
-        <li><a href="#retirement">퇴직연금</a></li>
-        <li><a href="#services">혜택/서비스</a></li>
-        <li><a href="#customer">고객센터</a></li>
-       </ul>
-      </div>
-      <div class="modal-munu-list">
-       <div id="contract">
-        <h4>계약관리</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">보험계약</a>
-          <ul>
-           <li><a href="#">계약내용 확인</a></li>
-           <li><a href="#">대리운전자보험계약 확인</a></li>
-           <li><a href="#">TM계약 녹취 확인/신청</a></li>
-           <li><a href="#">4세대 실손의료비 할인/할증 확인</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">장기보험</a>
-          <ul>
-           <li><a href="#">계약자 변경</a></li>
-           <li><a href="#">수익자 변경</a></li>
-           <li><a href="#">피보험자 직업 변경</a></li>
-           <li><a href="#">이륜차 알릴사항 변경</a></li>
-           <li><a href="#">자녀 등록(태아확정)</a></li>
-           <li><a href="#">소재지 변경</a></li>
-           <li><a href="#">연금보험료 변경</a></li>
-           <li><a href="#">연금납입한도 설정</a></li>
-           <li><a href="#">실손의료비 중지/재개 신청</a></li>
-           <li><a href="#">해외장기체류자 실손의료비 납입 중지 신청</a></li>
-           <li><a href="#">무사고 보험계약 전환</a></li>
-           <li><a href="#">완전판매모니터링</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">자동차보험</a>
-          <ul>
-           <li><a href="#">가입금액/특약 변경</a></li>
-           <li><a href="#">운전자 범위/연령 변경</a></li>
-           <li><a href="#">임시운전자 특약 가입</a></li>
-           <li><a href="#">임시운전자 특약 해지</a></li>
-           <li><a href="#">마일리지 특약 가입</a></li>
-           <li><a href="#">최종 주행거리 사진 등록</a></li>
-           <li><a href="#">자동차번호 등록</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">여행보험</a>
-          <ul>
-           <li><a href="#">여행보험 기간 변경</a></li>
-           <li><a href="#">여행보험 계약자 영문명 변경</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">납입</a>
-          <ul>
-           <li><a href="#">보험료 납입</a></li>
-           <li><a href="#">연금(저축)보험료 추가 납입</a></li>
-           <li><a href="#">효력상실예정계약 보험료 납입</a></li>
-           <li><a href="#">보험료 납입방법 변경</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">환급/해지</a>
-          <ul>
-           <li><a href="#">환급내역 확인</a></li>
-           <li><a href="#">환급금 수령계좌 변경</a></li>
-           <li><a href="#">환급금/휴면보험금 신청</a></li>
-           <li><a href="#">중도인출 신청</a></li>
-           <li><a href="#">장기보험 해지</a></li>
-           <li><a href="#">자동차보험 양도/말소해지</a></li>
-           <li><a href="#">자동차보험 해지서류 제출</a></li>
-           <li><a href="#">청약철회/개시 전 취소</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">펀드</a>
-          <ul>
-           <li><a href="#">펀드상품 안내</a></li>
-           <li><a href="#">보유펀드 확인</a></li>
-           <li><a href="#">펀드매매</a></li>
-           <li><a href="#">출금가능금액 확인/출금</a></li>
-           <li><a href="#">펀드계좌 관리</a></li>
-           <li><a href="#">펀드 이용가이드</a></li>
-           <li><a href="#">펀드상품 수시공시</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-       <div id="insurance">
-        <h4>보험상품</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">보험가이드</a>
-          <ul>
-           <li><a href="#">셀프 보장분석</a></li>
-           <li><a href="#">보험상품 한눈에 보기</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">자동차보험</a>
-          <ul>
-           <li><a href="#">애니카 자동차보험</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">운전자/상해보험</a>
-          <ul>
-           <li><a href="#">안전운전 파트너 플러스</a></li>
-           <li><a href="#">행복한 안심파트너</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">실손의료비보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">자녀보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">건강보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">치아보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">주택화재/풍수해보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">사업장화재/재물보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">연금보험</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">외국어 가입 상담(English/中文)</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-       <div id="reward">
-        <h4>보상</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">질병/상해</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">자동차</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">반려동물</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">재물/배상책임</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">보상가이드</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-       <div id="loan">
-        <h4>대출</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">보험계약대출</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">신용대출</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">담보대출</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">대출계약</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">금융소비자의 권리</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-       <div id="retirement">
-        <h4>퇴직연금</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">퇴직연금계약</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">상품운용</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">개인형퇴직연금(IRP)</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">확정연금</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">확정기여형퇴직연금(DC)</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">실물이전</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">퇴직연금제도</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">고객지원</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">PLUS 서비스</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-       <div id="services">
-        <h4>혜택/서비스</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">피크닉 서비스</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">애니포인트</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">헬스케어서비스</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">Car케어서비스</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">착!한생활서비스</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">생활부가서비스</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">라이프케어</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">소셜미디어</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">이벤트</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-       <div id="customer">
-        <h4>고객센터</h4>
-        <ul class="modal-submenu">
-         <li>
-          <a href="#">내정보</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">증명서</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">고객지원</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">공지사항</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">고객의소리</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">인증센터</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">홈페이지이용약관</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-         <li>
-          <a href="#">개인정보보호</a>
-          <ul>
-           <li><a href="#">Comming Soon</a></li>
-          </ul>
-         </li>
-        </ul>
-       </div>
-      </div>
-     </div>
-     <!-- 모달 푸터 -->
-     <div class="modal-footer">
-      <div class="modal-footer-inner">
-       <a href="#">회사소개</a>
-       <a href="#">공시실</a>
-       <a href="#">소비자포털</a>
-       <a href="#">RC(보험설계사)</a>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </body>
+  </body>
 </html>
